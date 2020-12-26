@@ -1,0 +1,518 @@
+/*--------------------------------------------------BODY STYLE--------------------------------------------------------*/
+body{
+	font-size: 16px;
+	color:gold;
+	background-color: #000;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+#intro-heading{
+	font-size: 60px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+#intro-data{
+	font-size: 40px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+#author{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+}
+#bach-data, #ssc-data, #hssc-data{
+	font-size: 20px;
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	text-align: center;
+}
+h3{
+	font-size: 30px;
+	text-align: left;
+	font-family: "Lucida Bright", Georgia, serif;
+}
+/*animation Bar stylings*/
+
+/*---------------------------------------------------NAVBAR STYLE-------------------------------------------------------*/
+/*header>nav  id = header nav start*/
+#header-nav{
+	background-color: darkred;
+	border: 0;
+	border-radius: 0;
+}
+
+/*header>nav>div>div   id = my-pic*/
+#my-pic{
+	/*width: 150px;*/
+	height: 163px;
+}
+
+/*header>nav>div>div>div   class = navbar-brand*/
+.navbar-brand{
+	padding-top: 25px;
+}
+/*header>nav>div>div>div>a>h1       MY NAME*/
+.navbar-brand h1{
+	font-family:"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	color: gold;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px darkorange;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; 
+}
+
+/*header>nav>div>div>div>button>div>ul     id=nav-list*/
+#navbar-list{
+	margin: 0px;
+}
+
+#navbar-list a{
+	color: gold;
+	text-align: center;
+}
+
+#navbar-list a:hover{
+	background-color: black;
+}
+#navbar-list > li.active > a{
+	background-color: black;
+}
+
+#navbar-list a span{
+	font-size: 1.8em;
+}
+
+/*header>nav>div>div>div>button>div>ul     id=phone*/
+
+#phone{
+	margin-top: 1.8px;
+}
+
+#phone a{
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#phone span{
+	text-align: center;
+	/*padding-bottom: 0;*/
+}
+/*for changing color of the button for menu*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid gold;
+}
+.navbar-header button.navbar-toggle:hover {
+	background-color: black;
+}
+/*positioning menu button at bottom of navbar*/
+.navbar-header button.navbar-toggle{
+	clear:none;
+	margin: 0px 20px -80px 0px; 
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}	
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+/*----------------------------------------------------------NAV STYLE--------------------------------------------------------*/
+
+/*tabs stylings*/
+
+#navbar-tabs > li > a:hover{
+	background-color: black;
+	color: gold;
+	border-bottom-color: transparent;
+}
+#navbar-tabs > li.active > a{
+	background-color: black;
+	color: gold;
+	border-bottom-color: transparent;
+}
+#navbar-tabs > li> a{
+	color: white;
+}
+/*------------------------------------------------------FOOTER STYLE------------------------------------------------------------*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	color: white;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#email, #address #contacts{
+	line-height: 2;
+}
+#email > span, #address > span, #contacts > span {
+	font-size: 1.3em;
+}
+#address p, #contacts p{
+	color: gold;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#copy-right{
+	color: gold;
+}
+
+/*--------------------------------------------------CONTAINER>BUTTON STYLE--------------------------------------------------*/
+#call-btn > a{
+	font-size: 1.5em;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid gold;
+	background-color: darkred;
+	color: gold;
+}
+/*----------------------------------------------------STAR CSS STYLING------------------------------------------------------------*/
+/*STAR CSS*/
+#stars {
+	font-size: 1.5em;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid gold;
+	background-color: darkred;
+	color: gold;
+	border-radius: 4px;
+}
+label {
+    color: gold;
+    text-indent: -2000em;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 1.2em;
+}
+label:before {
+    content: "★";
+    position: relative;
+    left: 2000em;
+}
+input:checked ~ label {
+    color: white;
+}
+input {
+    display: none;
+}
+div.rating:hover label {
+    color: gold;
+}
+div.rating label:hover ~ label {
+    color: white;
+}
+/*-------------------------------------------------------CONTAINER>JUMBOTRON STYLE--------------------------------------------------*/
+	/*jumbotron borders*/
+	.container .jumbotron{
+		padding:0;
+		padding-right: 0;
+		padding-left: 0;
+		background-color: transparent;
+	}
+/*------------------------------------------------CONTAINER>TITLES STYLE-----------------------------------------------------------*/
+
+#intro-title, #exp-title, #cert-title {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#intro-title:hover, #exp-title:hover, #cert-title:hover {
+	box-shadow: 0 1px 5px 1px darkorange;
+}
+#intro-title {
+	background: url('../icons/intro-icon.png') no-repeat;
+	background-position: center;
+}
+#exp-title {
+	background: url('../icons/exp-icon.png') no-repeat;
+	background-position: center;
+}
+#cert-title {
+	background: url('../icons/cert-icon.png') no-repeat;
+	background-position: center;
+}
+#intro-title span, #exp-title span, #cert-title span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+#home-titles{
+	padding: 0px;
+}
+#mov1, #mov2,#mov3, #mov4, #mov5, #mov6, #bmov1, #bmov2, #bmov3, #bmov4, #bmov5, #bmov6
+, #amov1, #amov2, #amov3, #amov4, #amov5, #amov6, #anmov1, #anmov2, #anmov3, #anmov4, #anmov5, #anmov6
+ ,#gmov1, #gmov2,#gmov3, #gmov4, #gmov5, #gmov6{
+	height: 256px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+/*hollywood*/
+#mov1 {
+	background: url('../icons/Harry-Potter256.png') no-repeat;
+	background-position: center;
+}
+#mov2 {
+	background: url('../icons/Terminator-256.png') no-repeat;
+	background-position: center;
+}
+#mov3 {
+	background: url('../icons/Transformers-256.png') no-repeat;
+	background-position: center;
+}
+#mov4 {
+	background: url('../icons/fast-256.png') no-repeat;
+	background-position: center;
+}
+#mov5 {
+	background: url('../icons/the_pursuit-256.png') no-repeat;
+	background-position: center;
+}
+#mov6 {
+	background: url('../icons/hitman-256.png') no-repeat;
+	background-position: center;
+}
+/*bollywood*/
+#bmov1 {
+	background: url('../icons/rsz_pk-512.png') no-repeat;
+	background-position: center;
+}
+#bmov2 {
+	background: url('../icons/rsz_jan-512.png') no-repeat;
+	background-position: center;
+}
+#bmov3 {
+	background: url('../icons/rsz_zindgi-512.png') no-repeat;
+	background-position: center;
+}
+#bmov4 {
+	background: url('../icons/rsz_agnee-512.png') no-repeat;
+	background-position: center;
+}
+#bmov5 {
+	background: url('../icons/rsz_bajirao-512.png') no-repeat;
+	background-position: center;
+}
+#bmov6 {
+	background: url('../icons/rsz_barfi-512.png') no-repeat;
+	background-position: center;
+}
+/*animated*/
+#amov1 {
+	background: url('../icons/up-256.png') no-repeat;
+	background-position: center;
+}
+#amov2 {
+	background: url('../icons/rsz_wall-512.png') no-repeat;
+	background-position: center;
+}
+#amov3 {
+	background: url('../icons/rsz_war-512.png') no-repeat;
+	background-position: center;
+}
+#amov4 {
+	background: url('../icons/tmnt-256.png') no-repeat;
+	background-position: center;
+}
+#amov5 {
+	background: url('../icons/angry-256.png') no-repeat;
+	background-position: center;
+}
+#amov6 {
+	background: url('../icons/loin-256.png') no-repeat;
+	background-position: center;
+}
+/*games*/
+#gmov1 {
+	background: url('../icons/rise-256.png') no-repeat;
+	background-position: center;
+}
+#gmov2 {
+	background: url('../icons/hitmang-256.png') no-repeat;
+	background-position: center;
+}
+#gmov3 {
+	background: url('../icons/medal.png') no-repeat;
+	background-position: center;
+}
+#gmov4 {
+	background: url('../icons/wanted-256.png') no-repeat;
+	background-position: center;
+}
+#gmov5 {
+	background: url('../icons/csgo-256.png') no-repeat;
+	background-position: center;
+}
+#gmov6 {
+	background: url('../icons/igi-256.png') no-repeat;
+	background-position: center;
+}
+/*animaes*/
+#anmov1 {
+	background: url('../icons/naruto-256.png') no-repeat;
+	background-position: center;
+}
+#anmov2 {
+	background: url('../icons/bleach-256.png') no-repeat;
+	background-position: center;
+}
+#anmov3 {
+	background: url('../icons/death-256.png') no-repeat;
+	background-position: center;
+}
+#anmov4 {
+	background: url('../icons/steins-256.png') no-repeat;
+	background-position: center;
+}
+#anmov5 {
+	background: url('../icons/god-256.png') no-repeat;
+	background-position: center;
+}
+#anmov6 {
+	background: url('../icons/clay-256.png') no-repeat;
+	background-position: center;
+}
+#mov1 span, #mov2 span,#mov3 span, #mov4 span, #mov5 span, #mov6 span, #bmov1 span, #bmov2 span,#bmov3 span,
+ #bmov4 span, #bmov5 span, #bmov6 span, #amov1 span, #amov2 span, #amov3 span, #amov4 span, #amov5 span,
+  #amov6 span, #anmov1 span, #anmov2 span, #anmov3 span, #anmov4 span, #anmov5 span, #anmov6 span
+ ,#gmov1 span, #gmov2 span,#gmov3 span, #gmov4 span, #gmov5 span, #gmov6 span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .5;
+}
+/*back to top*/
+#back-to-top{
+background-color: #ff8c00ff;
+color: white;
+opacity: .8;
+text-transform: uppercase;
+}
+/*----------------------------------------------------------MEDIA COURIES-----------------------------------------------------*/
+/*--------------------------LARGE DEVICES-------------------------------*/
+@media (min-width: 1200px){
+
+}
+/*--------------------------MEDIUM DEVICES-------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/*--------------------------SMALL DEVICES-------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+	/*HEADER*/
+	.navbar-brand h1{
+		font-size: 16px;
+	}
+		.navbar-brand{
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#my-pic{
+	/*width: 150px;*/
+	height: 150px;
+	}
+	/*TITLE*/
+	#cert-title {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+}
+/*--------------------------EXTRA SMALL DEVICES-------------------------------*/
+@media (max-width: 767px){
+	/*HEADER*/
+	.navbar-brand h1{
+		font-size: 20px;
+	}
+	#my-pic{
+	height: 100px;
+	}
+	.navbar-brand{
+		padding: 0;
+	}
+	.navbar-header{
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+	/*TITLES*/
+	#intro-title, #exp-title, #cert-title {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+	/*FOOTER*/
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center; 
+	}
+	.panel-footer section:nth-child(3) {
+		margin-bottom: 0;
+	}
+	.panel-footer section hr {
+		width: 50%;
+	}
+		/*intro body stylings*/
+	#intro-heading{
+		font-size: 50px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+
+	#intro-data{
+		font-size: 35px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+}
+/*-----------------------------EXTRA EXTRA SMALL------------------------------------*/
+@media (max-width: 479px){
+	/*TITLES*/
+	#intro-title, #exp-title, #cert-title {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	/*STAR CSS*/
+	#stars {
+		font-size: 1em;
+		display: block;
+		margin-bottom: 10px;
+		padding: 5px;
+		border: 2px solid gold;
+		background-color: darkred;
+		color: gold;
+		border-radius: 4px;
+	}
+	/*intro body stylings*/
+	#intro-heading{
+		font-size: 40px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+
+	#intro-data{
+		font-size: 25px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+}
